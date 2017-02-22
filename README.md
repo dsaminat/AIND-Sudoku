@@ -14,8 +14,7 @@ The implementation would involve identifying all the boxes that have twins (boxe
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 
-A: Original sudoku uses the constraints that require the sudoku uniqueness in row units, column units and the 3x3 square units.  In order to make it diagonal sudoku it would be necessary to add the right diagonal and left diagonal entries to the constraints.  
-Thus we propagate the constraings beyond the 3 original units to add these 2 additional units.  This will ensure that the solution set we find satisfies the peer diagonal constraints of the 2 diagonal units also. 
+A: Original sudoku uses the constraints that require the sudoku uniqueness in row units, column units and the 3x3 square units.  In order to make it diagonal sudoku it would be necessary to add the right diagonal and left diagonal entries to the constraints. Thus we propagate the constraings beyond the 3 original units to add these 2 additional units.  This will ensure that the solution set we find satisfies the peer diagonal constraints of the 2 diagonal units also. 
 
 ### Install
 
